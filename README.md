@@ -1,7 +1,4 @@
 # Bubble Game
-
-![Bubble Game Screenshot](Bubble-Game.png)
-
 This is a simple JavaScript-based bubble popping game with a timer. The goal of the game is to click on bubbles with the correct number to earn points
 before the timer runs out.
 
