@@ -89,3 +89,13 @@ html,body{
     cursor: pointer;
     background-color: rgb(50, 77, 42);
 }
+#playagain {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(18, 119, 57);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
