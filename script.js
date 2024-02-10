@@ -31,6 +31,18 @@ function runTimer(){
         }
         else{
             clearInterval(timerint);
+             var gameOverSound = document.querySelector("#gameOverSound");
+            if (gameOverSound) {
+                gameOverSound.volume = 0.5;
+                gameOverSound.play();
+            }
+
+            var gameOverContainer = document.createElement("div");
+            gameOverContainer.id = "game-over-container";
+            gameOverContainer.innerHTML = `
+                <h1>Game Over</h1>
+                <button id="playagain">Play Again</button>
+            `;
             document.querySelector("#pbtm").innerHTML = `<h1>GAME OVER! Your Score is ${score}.<\h1>`;  
         }
     }, 1000);
